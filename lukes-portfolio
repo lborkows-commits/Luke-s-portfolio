@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lucas Borkowski – Portfolio</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #fafafa;
+            color: #333;
+            line-height: 1.7;
+        }
+
+        h2 {
+            font-size: 1.9rem;
+            margin-bottom: 1rem;
+            font-weight: 600;
+            border-bottom: 3px solid #ddd;
+            padding-bottom: 0.4rem;
+        }
+
+        a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* NAVIGATION BAR */
+        nav {
+            position: sticky;
+            top: 0;
+            background: #ffffffcc;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+            padding: 0.8rem 1rem;
+            z-index: 1000;
+        }
+        nav ul {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 1.8rem;
+            list-style: none;
+            justify-content: center;
+            font-weight: 500;
+        }
+        nav li a {
+            color: #222;
+            font-size: 1rem;
+        }
+        nav li a:hover {
+            color: #2563eb;
+        }
+
+        /* HEADER */
+        header {
+            background: linear-gradient(135deg, #1f2937, #111827);
+            color: #fff;
+            text-align: center;
+            padding: 5rem 1.5rem;
+        }
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 0.4rem;
+        }
+        header p {
+            margin: 0 auto;
+            max-width: 550px;
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        /* SECTIONS */
+        .section {
+            max-width: 900px;
+            margin: auto;
+            padding: 4rem 1.5rem;
+        }
+
+        .project {
+            background: #fff;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+            margin-bottom: 1.8rem;
+        }
+
+        .project-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 0.4rem;
+        }
+
+        .skills-list p {
+            margin: 0.3rem 0 1rem 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem 1rem;
+            font-size: 0.95rem;
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- HEADER -->
+    <header>
+        <h1>Lucas Borkowski</h1>
+        <p>Musician • Coder • Robotics Enthusiast</p>
+    </header>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+        <h2>About Me</h2>
+        <p>
+            I’m a musician, coder, and robotics enthusiast who loves creating things that merge 
+            creativity with technology. I’ve produced and released original music, handled 
+            recording and mixing, and developed a detailed ear that pushes me to refine my craft. 
+            My curiosity also drives my coding work, where I’ve taught myself Python and machine 
+            learning through hands-on projects. I enjoy exploring problems deeply, iterating, and 
+            building better tools—whether in a studio, on a robotics field, or behind a keyboard.
+        </p>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+        <h2>Projects</h2>
+
+        <!-- Harmoniq -->
+        <div class="project">
+            <div class="project-title">Harmoniq — AI-Powered Music-Creation Studio</div>
+            <p>
+                Developed as a first-year innovation project at the USC Iovine & Young Academy, 
+                Harmoniq is an AI-driven platform that transforms raw vocal recordings into polished, 
+                release-ready tracks. It addresses the complexity and high cost of traditional 
+                music-production tools while offering intuitive features such as real-time mastering 
+                feedback, genre-aware processing, personalized sound profiles, A/B comparisons, 
+                and transparent AI explanations.
+            </p>
+            <p>
+                The project included market analysis, a competitive landscape study, financial projections, 
+                and a freemium-based business model. I helped shape the concept, design features, and 
+                articulate the product vision as part of a collaborative multidisciplinary team.
+            </p>
+        </div>
+
+        <!-- Hit Analyzer -->
+        <div class="project">
+            <div class="project-title">AI “Hit Potential” Analyzer</div>
+            <p>
+                A machine learning tool that identifies patterns across decades of songs to predict 
+                whether a new track might succeed commercially. Built the dataset, model, and 
+                testing pipeline from scratch.
+            </p>
+        </div>
+
+        <!-- Album Project -->
+        <div class="project">
+            <div class="project-title">Produced & Released Album</div>
+            <p>
+                Produced, recorded, mixed, and mastered a 27-minute, fully original band album. 
+                Managed nearly every instrument and perfected details through continuous iteration. 
+                Reached over 8,000 streams.
+            </p>
+        </div>
+
+        <!-- Robotics -->
+        <div class="project">
+            <div class="project-title">Robotics Team Leadership</div>
+            <p>
+                Captain and lead coder for the Sidwell Friends Robotics Team. Competed in major 
+                regional and state tournaments and helped the team earn multiple top-four finishes, 
+                including a first-place victory in the MATE competition.
+            </p>
+        </div>
+
+        <!-- Breakout Mentors -->
+        <div class="project">
+            <div class="project-title">Independent Python & ML Project</div>
+            <p>
+                Advanced Python and machine learning practice through Breakout Mentors. Built 
+                creative programs including music-analysis tools based on algorithms and data patterns.
+            </p>
+        </div>
+
+        <!-- Community Power -->
+        <div class="project">
+            <div class="project-title">AI Training Chatbot – Community Power</div>
+            <p>
+                Created an AI chatbot designed to simulate conversations between landowners and 
+                companies to help train employees in communication.
+            </p>
+        </div>
+
+        <!-- Ingenuity Prep -->
+        <div class="project">
+            <div class="project-title">Ingenuity Prep Robotics Program (Founder)</div>
+            <p>
+                Launched and taught a weekly robotics program at an under-resourced elementary 
+                school. Designed custom lessons and hands-on activities.
+            </p>
+        </div>
+
+        <!-- Georgetown Internship -->
+        <div class="project">
+            <div class="project-title">Leadership Initiatives – Georgetown Internship</div>
+            <p>
+                Worked with business and development experts to improve a small organization’s 
+                marketing and infrastructure. Co-led the project team and helped secure grant funding.
+            </p>
+        </div>
+
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+        <h2>Skills</h2>
+        <div class="skills-list">
+            <p><strong>Technical:</strong> Python, machine learning, algorithms, robotics coding, AI implementation, 
+            audio production (Logic X), recording/mixing/mastering, social media strategy.</p>
+
+            <p><strong>Creative:</strong> Songwriting, composition, guitar, drums, multi-instrument performance, 
+            live sound and event setup.</p>
+
+            <p><strong>Leadership:</strong> Robotics Team Captain, Varsity Wrestling Captain, co-head roles in band 
+            organizations, project leadership during internships.</p>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:lborkowski247@gmail.com">lborkowski247@gmail.com</a></p>
+        <p>Music: <a href="https://hyperfollow.com/HiDefBand" target="_blank">Hi Def Band</a></p>
+    </section>
+
+    <footer>
+        © 2025 Lucas Borkowski
+    </footer>
+
+</body>
+</html>
